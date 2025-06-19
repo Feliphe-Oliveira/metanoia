@@ -1,6 +1,6 @@
 const btn_metanoia = document.getElementById('btnMe')
 btn_metanoia.addEventListener('click',()=>{
-    const cod = 'cura'
+    const cod = 'lado'
     const senha = document.getElementById('senha')
 
     if(senha.value.toUpperCase() == cod.toUpperCase()){
